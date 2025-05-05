@@ -102,6 +102,81 @@ body {
   font-weight: 700;
 }
 
+.method-step p {
+  color: #555;
+}
+
+.method-step h3 {
+  color: #2a7a4f;
+}
+
+.method-step img {
+  max-width: 50px;
+}
+
+.membership-preview {
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.membership-card {
+  min-width: 18rem;
+  max-width: 18rem;
+}
+
+.app-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.partner-logos img {
+  max-height: 64px;
+  object-fit: contain;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.subscription .input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.subscription .input-field:focus {
+  border-color: #2a7a4f;
+  outline: none;
+}
+
+.subscription button {
+  background-color: #2a7a4f;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscription button:hover,
+.subscription button:focus {
+  background-color: #1f5c37;
+  outline: none;
+}
+
 @media (max-width: 767px) {
   .nav {
     display: none;
